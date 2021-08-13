@@ -1,4 +1,4 @@
 # Adoorei - Projeto feito com Tailwindcss e vue
 
 URL Demo
-https://61166e78143d291c2aad736e--laughing-khorana-e52b8c.netlify.app/
+https://611671e918d43a3148ad46a8--gifted-williams-90e9f0.netlify.app/
