@@ -1,24 +1,4 @@
-# adoorei
+# Adoorei - Projeto feito com Tailwindcss e vue
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+URL Demo
+https://61166e78143d291c2aad736e--laughing-khorana-e52b8c.netlify.app/
