@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 h-full">
+  <div>
     <nav>
     <ul class="flex flex-wrap justify-center pt-5">
       <li>
@@ -25,3 +25,8 @@
   <router-view/>
   </div>
 </template>
+<style>
+  body{
+    background-color: #f3f4f6;
+  }
+</style>
