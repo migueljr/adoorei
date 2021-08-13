@@ -1,30 +1,25 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <nav>
+    <ul class="flex flex-wrap justify-center mt-5">
+      <li>
+        <router-link class="mr-5 text-pink-600 underline" to="/">Dados Pessoais</router-link>
+      </li>
+      <li>
+        <router-link class="mr-5 text-pink-600 underline" to="/address">Endereço de cobrança</router-link>
+      </li>
+      <li>
+        <router-link class="mr-5 text-pink-600 underline" to="/payment-data">Dados para pagamento</router-link>
+      </li>
+      <li>
+        <router-link class="mr-5 text-pink-600 underline" to="/packages">Pacotes</router-link>
+      </li>
+      <li>
+        <router-link class="mr-5 text-pink-600 underline" to="/data-store">Dados da loja</router-link>
+      </li>
+      <li>
+        <router-link class="mr-5 text-pink-600 underline" to="/thanks">Obrigado pela compra</router-link>
+      </li>
+    </ul>
+  </nav>
   <router-view/>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-</style>
