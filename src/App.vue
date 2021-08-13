@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 h-screen">
+  <div class="bg-gray-100 h-full">
     <nav>
     <ul class="flex flex-wrap justify-center pt-5">
       <li>
